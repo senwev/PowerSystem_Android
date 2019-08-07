@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.eecso.powersystem.CirCuit xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="0px"
+    android:id="@+id/CircuitBoard"
+    android:layout_height="match_parent"
+     android:layout_width="match_parent">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/CircuitBoard"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:text="添加"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="249dp" />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/button"
+        android:layout_marginBottom="30px"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/spinner"
+        android:layout_height="wrap_content"></Spinner>
+    <Button
+        android:id="@+id/calcu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/CircuitBoard"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/spinner"
+        android:layout_weight="1"
+        android:text="标幺电流计算"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="249dp" />
+</com.eecso.powersystem.CirCuit>

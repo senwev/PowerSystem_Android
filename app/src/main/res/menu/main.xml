@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/id_add_item" android:title="导出png图片"/>
+    <item android:id="@+id/id_remove_item" android:title="导出SVG矢量图"/>
+    <item android:id="@+id/visit" android:title="访问EECSO官网"/>
+
+</menu>
